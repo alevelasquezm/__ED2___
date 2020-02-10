@@ -11806,11 +11806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleve\\source\\repos\\Lab_02_\\Lab_02_\\Lab_02_.csproj",
+      "projectUniqueName": "C:\\Users\\aleve\\Desktop\\Nueva carpeta\\Lab_02_\\Lab_02_.csproj",
       "projectName": "Lab_02_",
-      "projectPath": "C:\\Users\\aleve\\source\\repos\\Lab_02_\\Lab_02_\\Lab_02_.csproj",
+      "projectPath": "C:\\Users\\aleve\\Desktop\\Nueva carpeta\\Lab_02_\\Lab_02_.csproj",
       "packagesPath": "C:\\Users\\aleve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleve\\source\\repos\\Lab_02_\\Lab_02_\\obj\\",
+      "outputPath": "C:\\Users\\aleve\\Desktop\\Nueva carpeta\\Lab_02_\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

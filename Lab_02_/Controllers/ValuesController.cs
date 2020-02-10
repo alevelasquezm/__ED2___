@@ -15,7 +15,9 @@ namespace Lab_02_.Controllers
 
         // GET api/values
 
-        
+        public Btree tree = new Btree();
+        public Path path = new Path();
+        public  BSearch search= new BSearch();
 
 
 
@@ -31,14 +33,26 @@ namespace Lab_02_.Controllers
         [HttpGet]
         public string Get([FromBody] string brandNew)
         {
-            return;
+            string found;
+            var searchedItem = search.Search(brandNew);
+            
+            if (searchedItem != null)
+            {
+                found =  "Name: " + searchedItem.Name + "\n" + "Flavor: " + searchedItem.Flavor + "\n" + "Volume: " + searchedItem.Volume + "\n" + "Price: " + searchedItem.Price+ "Producer House: " + searchedItem.Producer_House;
+
+            }
+            else
+            {
+                found = "ERROR, NOT FOUND";
+            }
+            return found;
         }
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody] Soda item)
         {
-            
+            tree.insert(item);
         }
 
       /*  // PUT api/values/5

@@ -73,8 +73,10 @@ namespace Lab_02_.Models
                     if (node.leftVal.Name.CompareTo(info.Name) == 1)
                     {
                         var Up = new Node();
-                        var newVal = new Node();
-                        newVal.leftVal = node.rightVal;
+                        var newVal = new Node
+                        {
+                            leftVal = node.rightVal
+                        };
                         node.rightVal = null;
                         Up.leftVal = node.leftVal;
                         node.leftVal = info;
@@ -86,10 +88,14 @@ namespace Lab_02_.Models
                     }
                     else
                     {
-                        var Up = new Node();
-                        Up.leftVal = info;
-                        var newVal = new Node();
-                        newVal.leftVal = node.rightVal;
+                        var Up = new Node
+                        {
+                            leftVal = info
+                        };
+                        var newVal = new Node
+                        {
+                            leftVal = node.rightVal
+                        };
                         node.rightVal = null;
                         Up.leftChild = node;
                         Up.intermideateChild = newVal;
@@ -134,9 +140,11 @@ namespace Lab_02_.Models
                         var x = ins(info, node.leftChild);
                         if (x != null)
                         {
-                            var Up = new Node();
-                            Up.leftVal = node.leftVal;
-                            Up.leftChild = x;
+                            var Up = new Node
+                            {
+                                leftVal = node.leftVal,
+                                leftChild = x
+                            };
                             node.leftVal = node.rightVal;
                             node.rightVal = null;
                             node.leftChild = node.intermideateChild;
@@ -156,12 +164,16 @@ namespace Lab_02_.Models
                         var x = ins(info, node.intermideateChild);
                         if (x != null)
                         {
-                            var Up = new Node();
-                            Up.leftVal = x.leftVal;
-                            var newVal = new Node();
-                            newVal.leftVal = node.rightVal;
-                            newVal.intermideateChild = node.rightChild;
-                            newVal.leftChild = x.intermideateChild;
+                            var Up = new Node
+                            {
+                                leftVal = x.leftVal
+                            };
+                            var newVal = new Node
+                            {
+                                leftVal = node.rightVal,
+                                intermideateChild = node.rightChild,
+                                leftChild = x.intermideateChild
+                            };
                             node.rightVal = null;
                             node.rightChild = null;
                             Up.leftChild = node;
@@ -180,8 +192,10 @@ namespace Lab_02_.Models
                         var x = ins(info, node.rightChild);
                         if (x != null)
                         {
-                            var Up = new Node();
-                            Up.leftVal = node.rightVal;
+                            var Up = new Node
+                            {
+                                leftVal = node.rightVal
+                            };
                             node.rightChild = null;
                             node.rightVal = null;
                             Up.leftChild = node;
