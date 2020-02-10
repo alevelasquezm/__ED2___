@@ -1,0 +1,14 @@
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\bin\Debug\netcoreapp2.1\Lab_02_.deps.json
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\bin\Debug\netcoreapp2.1\Lab_02_.runtimeconfig.json
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\bin\Debug\netcoreapp2.1\Lab_02_.runtimeconfig.dev.json
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\bin\Debug\netcoreapp2.1\Lab_02_.dll
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.csprojAssemblyReference.cache
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.csproj.CoreCompileInputs.cache
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.RazorAssemblyInfo.cache
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.RazorAssemblyInfo.cs
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.AssemblyInfoInputs.cache
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.AssemblyInfo.cs
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.RazorTargetAssemblyInfo.cache
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\bin\Debug\netcoreapp2.1\Lab_02_.pdb
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.dll
+C:\Users\aleve\source\repos\Lab_02_\Lab_02_\obj\Debug\netcoreapp2.1\Lab_02_.pdb
